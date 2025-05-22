@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: aliceblue;
+    background-color: moccasin;
     color: darkolivegreen;
     display: flex;
     justify-content: center;
@@ -35,4 +35,66 @@ body {
 
 .screen.start {
     display: block;
+}
+
+/* START SCREEN */
+
+#start-screen h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#start-screen h4{
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(178, 165, 165, 0.5);
+}
+
+#start-screen button{
+    background-color: burlywood;
+    color: cornsilk;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#question-container {
+    display: none;
+    margin-top: 20px;
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+}  
+
+.quiz-info {
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: black;
+    justify-content: space-between;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: lightyellow;
+    color: white;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+    padding: 1rem;
 }
